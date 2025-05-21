@@ -1,6 +1,6 @@
 name: build_deploy_aks
 on:
-  push:
+  push: 
     paths:
       - "azure-vote/**"
 jobs: 
