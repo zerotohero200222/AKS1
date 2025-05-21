@@ -3,7 +3,7 @@ on:
   push:
     paths:
       - "azure-vote/**"
-jobs:
+jobs: 
   build:
     runs-on: ubuntu-latest
     steps:
